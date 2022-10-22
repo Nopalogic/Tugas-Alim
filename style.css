@@ -1,0 +1,46 @@
+/* 
+Alim color palette
+blue: #00b4ff
+gray: #394955
+lightgray: #9dadbc
+pink: #f187c0
+darkpink: #b752ba
+*/
+
+body {
+	background-color: #9dadbc;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+	height: 77vh;
+	margin-top: 100px;
+}
+
+.text-alim {
+	padding: 0px 13px;
+	border-radius: 8px;
+	background: #e44740;
+	color: #fff;
+}
+
+.footer {
+	height: 50px;
+	background-color: #fff;
+}
+
+.container > p{
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 500px) {
+	.header {
+		height: auto;
+		margin-top: 150px;
+	}
+
+  .container-xl > p{
+    font-size: 15px;
+  }
+}
